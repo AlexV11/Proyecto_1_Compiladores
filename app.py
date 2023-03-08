@@ -6,6 +6,14 @@ tokens = ['LENG', 'OTRO']
 t_LENG = r'a(b|c)*dcc(b|d)+aa'
 t_OTRO = r'.'
 
+st.write(
+    '''
+    338803 - Saul Fernando Rodríguez Gutiérrez
+    338817 - Eric Alejandro Aguilar Marcial
+    338931 - Andrés Alexis Villalba García
+    '''
+)
+
 def revisar(cadena):
     aceptador = lex.lex()
     aceptador.input(cadena)
